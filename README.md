@@ -47,13 +47,15 @@ where
 ### Problem Statement
 
 Suppose we have the transition matrix:
-$$T=\begin{pmatrix}
+```math
+T=\begin{pmatrix}
     0.1 & 0.2 & 0.3 & 0.2 & 0.2 \\
     0.6 & 0.1 & 0.1 & 0.1 & 0.1 \\
     0.2 & 0.1 & 0.1 & 0.5 & 0.1 \\
     0.2 & 0.2 & 0.2 & 0.2 & 0.2 \\
     0.4 & 0.1 & 0.1 & 0.1 & 0.3
-\end{pmatrix}$$
+\end{pmatrix}
+```
 with state space $\Omega = \{A, B, C, D, E\}$ for bags $A,B,C,D,E$ all containing red, orange, yellow, green, blue, and purple marbles. We know:
 
 * bag $A$ contains 1 red marbles, 2 orange marbles, 1 yellow marbles, 2 green marbles, 3 blue marbles, and 1 purple marbles.
